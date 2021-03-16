@@ -1,2 +1,4 @@
 include ':common7'
+// include ':Utils1:common1'
+// project(':Utils1:common1').projectDir=new File(settingsDir, './Utils4/Utils3/Utils1/common1')
 rootProject.name = "Android_Common_Utils7"
