@@ -1,4 +1,11 @@
 include ':common7'
-// include ':Utils1:common1'
-// project(':Utils1:common1').projectDir=new File(settingsDir, './Utils4/Utils3/Utils1/common1')
 rootProject.name = "Android_Common_Utils7"
+
+include ':Utils4:common4'
+project(':Utils4:common4').projectDir = new File(settingsDir, './Utils4/common4')
+
+include ':Utils3:common3'
+project(':Utils3:common3').projectDir = new File(settingsDir, './Utils4/Utils3/common3')
+
+include ':Utils1:common1'
+project(':Utils1:common1').projectDir = new File(settingsDir, './Utils4/Utils3/Utils1/common1')
